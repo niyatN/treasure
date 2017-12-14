@@ -4,15 +4,34 @@
     android:layout_width="match_parent"
     android:orientation="horizontal"
     android:layout_height="match_parent"
-    tools:context="com.example.shreyansh.treasure.MainActivity">
+    tools:context="com.example.shreyansh.treasure.MainActivity"
+    android:weightSum="7">
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:weightSum="7"
         android:layout_weight="1.5"
         android:background="#000"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FF1AFF0E"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FF071FD4"
+            android:orientation="vertical">
+
+        </LinearLayout>
 
 
     </LinearLayout>
